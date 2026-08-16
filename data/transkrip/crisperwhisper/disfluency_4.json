@@ -1,0 +1,1040 @@
+{
+ "bahasa": "id",
+ "durasi": 132.46,
+ "model": "nyrahealth/CrisperWhisper",
+ "setelan": {
+  "jendela_dtk": 20,
+  "maks_token": 160,
+  "tokenizer_dari": "openai/whisper-large-v3",
+  "koreksi_senyap": true,
+  "repetition_penalty": null,
+  "no_repeat_ngram_size": null
+ },
+ "rentang_rusak": [
+  {
+   "mulai": 56.38,
+   "henti": 61.54,
+   "putaran": 22,
+   "isi": "okay."
+  },
+  {
+   "mulai": 89.54,
+   "henti": 89.98,
+   "putaran": 7,
+   "isi": "gitu."
+  }
+ ],
+ "segments": [
+  {
+   "start": 6.07,
+   "end": 53.2,
+   "text": " Okay,  ini  yang  gua  juga  uhm pahami.  Karena  gua inget,  gua  pernah  liat  melihat  interaksi  lo  di  Twitter waktu  itu. Kalo  blic apo logy apa  nggak,  pu blic apo logy,  itu  udah  nggak  gang gu  lagi  di  dalam  dia,  maksud  saya  gitu  ya.  Betul.  Betul.  uhm gini, Okay.  Katakan  lah,  lo kena  cancel. Okay.  Dan  lo  finally  buat  pu blic apo logy. Okay.  Tapi  ada  orang kay.",
+   "words": [
+    {
+     "word": " Okay,",
+     "start": 6.07,
+     "end": 6.48
+    },
+    {
+     "word": "  ini",
+     "start": 6.48,
+     "end": 6.56
+    },
+    {
+     "word": "  yang",
+     "start": 6.56,
+     "end": 6.66
+    },
+    {
+     "word": "  gua",
+     "start": 6.66,
+     "end": 6.9
+    },
+    {
+     "word": "  juga",
+     "start": 6.9,
+     "end": 7.28
+    },
+    {
+     "word": "  uhm",
+     "start": 7.28,
+     "end": 7.4
+    },
+    {
+     "word": " pahami.",
+     "start": 7.4,
+     "end": 7.82
+    },
+    {
+     "word": "  Karena",
+     "start": 8.08,
+     "end": 8.19
+    },
+    {
+     "word": "  gua",
+     "start": 8.19,
+     "end": 8.32
+    },
+    {
+     "word": " inget,",
+     "start": 8.32,
+     "end": 8.56
+    },
+    {
+     "word": "  gua",
+     "start": 8.69,
+     "end": 8.84
+    },
+    {
+     "word": "  pernah",
+     "start": 8.84,
+     "end": 9.03
+    },
+    {
+     "word": "  liat",
+     "start": 9.03,
+     "end": 9.18
+    },
+    {
+     "word": "  melihat",
+     "start": 9.18,
+     "end": 9.76
+    },
+    {
+     "word": "  interaksi",
+     "start": 9.76,
+     "end": 10.24
+    },
+    {
+     "word": "  lo",
+     "start": 10.24,
+     "end": 10.48
+    },
+    {
+     "word": "  di",
+     "start": 10.71,
+     "end": 11.48
+    },
+    {
+     "word": "  Twitter",
+     "start": 11.48,
+     "end": 11.92
+    },
+    {
+     "word": " waktu",
+     "start": 11.92,
+     "end": 12.08
+    },
+    {
+     "word": "  itu.",
+     "start": 12.08,
+     "end": 12.38
+    },
+    {
+     "word": " Kalo",
+     "start": 12.38,
+     "end": 13.48
+    },
+    {
+     "word": "  blic",
+     "start": 13.48,
+     "end": 31.26
+    },
+    {
+     "word": " apo",
+     "start": 31.26,
+     "end": 31.4
+    },
+    {
+     "word": " logy",
+     "start": 31.4,
+     "end": 31.72
+    },
+    {
+     "word": " apa",
+     "start": 31.72,
+     "end": 31.96
+    },
+    {
+     "word": "  nggak,",
+     "start": 31.96,
+     "end": 32.38
+    },
+    {
+     "word": "  pu",
+     "start": 32.8,
+     "end": 32.84
+    },
+    {
+     "word": " blic",
+     "start": 32.84,
+     "end": 33.0
+    },
+    {
+     "word": " apo",
+     "start": 33.0,
+     "end": 33.11
+    },
+    {
+     "word": " logy,",
+     "start": 33.11,
+     "end": 33.53
+    },
+    {
+     "word": "  itu",
+     "start": 33.58,
+     "end": 33.7
+    },
+    {
+     "word": "  udah",
+     "start": 33.7,
+     "end": 33.9
+    },
+    {
+     "word": "  nggak",
+     "start": 33.9,
+     "end": 34.02
+    },
+    {
+     "word": "  gang",
+     "start": 34.02,
+     "end": 34.2
+    },
+    {
+     "word": " gu",
+     "start": 34.2,
+     "end": 34.25
+    },
+    {
+     "word": "  lagi",
+     "start": 34.25,
+     "end": 34.5
+    },
+    {
+     "word": "  di",
+     "start": 34.5,
+     "end": 34.64
+    },
+    {
+     "word": "  dalam",
+     "start": 34.64,
+     "end": 34.74
+    },
+    {
+     "word": "  dia,",
+     "start": 34.74,
+     "end": 34.88
+    },
+    {
+     "word": "  maksud",
+     "start": 34.88,
+     "end": 35.02
+    },
+    {
+     "word": "  saya",
+     "start": 35.02,
+     "end": 35.06
+    },
+    {
+     "word": "  gitu",
+     "start": 35.06,
+     "end": 35.21
+    },
+    {
+     "word": "  ya.",
+     "start": 35.26,
+     "end": 35.39
+    },
+    {
+     "word": "  Betul.",
+     "start": 35.52,
+     "end": 35.86
+    },
+    {
+     "word": "  Betul.",
+     "start": 35.86,
+     "end": 36.16
+    },
+    {
+     "word": "  uhm",
+     "start": 36.16,
+     "end": 36.18
+    },
+    {
+     "word": " gini,",
+     "start": 36.18,
+     "end": 36.56
+    },
+    {
+     "word": " Okay.",
+     "start": 36.56,
+     "end": 36.87
+    },
+    {
+     "word": "  Katakan",
+     "start": 37.49,
+     "end": 37.68
+    },
+    {
+     "word": "  lah,",
+     "start": 37.68,
+     "end": 38.06
+    },
+    {
+     "word": "  lo",
+     "start": 38.06,
+     "end": 38.36
+    },
+    {
+     "word": " kena",
+     "start": 38.36,
+     "end": 38.52
+    },
+    {
+     "word": "  cancel.",
+     "start": 38.52,
+     "end": 38.97
+    },
+    {
+     "word": " Okay.",
+     "start": 39.45,
+     "end": 39.7
+    },
+    {
+     "word": "  Dan",
+     "start": 39.7,
+     "end": 40.56
+    },
+    {
+     "word": "  lo",
+     "start": 40.56,
+     "end": 40.79
+    },
+    {
+     "word": "  finally",
+     "start": 40.79,
+     "end": 41.32
+    },
+    {
+     "word": "  buat",
+     "start": 41.32,
+     "end": 41.62
+    },
+    {
+     "word": "  pu",
+     "start": 41.71,
+     "end": 41.76
+    },
+    {
+     "word": " blic",
+     "start": 41.76,
+     "end": 41.88
+    },
+    {
+     "word": " apo",
+     "start": 41.88,
+     "end": 42.1
+    },
+    {
+     "word": " logy.",
+     "start": 42.1,
+     "end": 42.35
+    },
+    {
+     "word": " Okay.",
+     "start": 42.6,
+     "end": 42.92
+    },
+    {
+     "word": "  Tapi",
+     "start": 42.92,
+     "end": 44.0
+    },
+    {
+     "word": "  ada",
+     "start": 44.0,
+     "end": 44.4
+    },
+    {
+     "word": "  orang",
+     "start": 44.4,
+     "end": 44.7
+    },
+    {
+     "word": " kay.",
+     "start": 44.7,
+     "end": 53.2
+    }
+   ]
+  },
+  {
+   "start": 61.54,
+   "end": 89.98,
+   "text": " Oka buat  sekedar  dia  doang  gitu  loh.  Hmm. Okay.  Make  sen se,  make  sen se.  hm  karena  tu juannya  di  situ  yang  lebih utama  adalah  si klorang in fluencer  dan  rasa  kayak,  Gue  udah  kenal  banget. G",
+   "words": [
+    {
+     "word": " Oka",
+     "start": 61.54,
+     "end": 61.54
+    },
+    {
+     "word": " buat",
+     "start": 62.14,
+     "end": 62.24
+    },
+    {
+     "word": "  sekedar",
+     "start": 62.24,
+     "end": 62.56
+    },
+    {
+     "word": "  dia",
+     "start": 62.56,
+     "end": 62.74
+    },
+    {
+     "word": "  doang",
+     "start": 62.74,
+     "end": 63.0
+    },
+    {
+     "word": "  gitu",
+     "start": 63.0,
+     "end": 63.22
+    },
+    {
+     "word": "  loh.",
+     "start": 63.22,
+     "end": 63.36
+    },
+    {
+     "word": "  Hmm.",
+     "start": 63.49,
+     "end": 64.62
+    },
+    {
+     "word": " Okay.",
+     "start": 64.62,
+     "end": 65.82
+    },
+    {
+     "word": "  Make",
+     "start": 66.0,
+     "end": 66.12
+    },
+    {
+     "word": "  sen",
+     "start": 66.13,
+     "end": 66.5
+    },
+    {
+     "word": " se,",
+     "start": 66.5,
+     "end": 66.51
+    },
+    {
+     "word": "  make",
+     "start": 66.51,
+     "end": 66.68
+    },
+    {
+     "word": "  sen",
+     "start": 66.68,
+     "end": 66.9
+    },
+    {
+     "word": " se.",
+     "start": 66.9,
+     "end": 67.09
+    },
+    {
+     "word": "  hm",
+     "start": 67.09,
+     "end": 68.34
+    },
+    {
+     "word": "  karena",
+     "start": 68.34,
+     "end": 69.01
+    },
+    {
+     "word": "  tu",
+     "start": 69.01,
+     "end": 69.72
+    },
+    {
+     "word": " juannya",
+     "start": 69.72,
+     "end": 70.09
+    },
+    {
+     "word": "  di",
+     "start": 70.09,
+     "end": 70.3
+    },
+    {
+     "word": "  situ",
+     "start": 70.3,
+     "end": 70.54
+    },
+    {
+     "word": "  yang",
+     "start": 70.54,
+     "end": 70.64
+    },
+    {
+     "word": "  lebih",
+     "start": 70.64,
+     "end": 70.87
+    },
+    {
+     "word": " utama",
+     "start": 70.87,
+     "end": 71.28
+    },
+    {
+     "word": "  adalah",
+     "start": 71.28,
+     "end": 71.76
+    },
+    {
+     "word": "  si",
+     "start": 72.31,
+     "end": 73.08
+    },
+    {
+     "word": " klorang",
+     "start": 73.08,
+     "end": 86.42
+    },
+    {
+     "word": " in",
+     "start": 86.42,
+     "end": 87.18
+    },
+    {
+     "word": " fluencer",
+     "start": 87.18,
+     "end": 87.18
+    },
+    {
+     "word": "  dan",
+     "start": 87.18,
+     "end": 87.9
+    },
+    {
+     "word": "  rasa",
+     "start": 87.9,
+     "end": 88.2
+    },
+    {
+     "word": "  kayak,",
+     "start": 88.2,
+     "end": 88.54
+    },
+    {
+     "word": "  Gue",
+     "start": 88.57,
+     "end": 88.74
+    },
+    {
+     "word": "  udah",
+     "start": 88.74,
+     "end": 88.86
+    },
+    {
+     "word": "  kenal",
+     "start": 88.86,
+     "end": 89.12
+    },
+    {
+     "word": "  banget.",
+     "start": 89.12,
+     "end": 89.49
+    },
+    {
+     "word": " G",
+     "start": 89.98,
+     "end": 89.98
+    }
+   ]
+  },
+  {
+   "start": 95.58,
+   "end": 132.47,
+   "text": "  gitu.  Nah  ini  ini  yang  menurut  Gue 1 hal  yang  menarik  ya.  Tapi  Gue  mau  ngomongin  dari sisi  sebaliknya.  Hayo,  hang out  yo, ngobrol  gitu.  Ya  hm  Gue  bah kan  bisa  se but namanya  gitu  ya  uhm akun nya  la  uhm ada  The Wob bly  Ninja  dia  dari  Kalimantan  dia  suka kalo  main  ya  kita  udah  pernah ngobrol  beberapa  kali  datang ke  Jakarta ketemuan  ya  terus  uhm  ada Feni Feni  like  shout out  dia lalu ngambil  waktu  untuk  nulis  kom men  yang  menurut  gue anjir  ini  kom men  bukan 1  menit  di ketik  nih",
+   "words": [
+    {
+     "word": "  gitu.",
+     "start": 95.58,
+     "end": 96.18
+    },
+    {
+     "word": "  Nah",
+     "start": 96.34,
+     "end": 96.4
+    },
+    {
+     "word": "  ini",
+     "start": 96.4,
+     "end": 96.58
+    },
+    {
+     "word": "  ini",
+     "start": 96.58,
+     "end": 96.8
+    },
+    {
+     "word": "  yang",
+     "start": 96.8,
+     "end": 97.12
+    },
+    {
+     "word": "  menurut",
+     "start": 97.12,
+     "end": 97.42
+    },
+    {
+     "word": "  Gue",
+     "start": 97.42,
+     "end": 97.72
+    },
+    {
+     "word": " 1",
+     "start": 97.72,
+     "end": 98.26
+    },
+    {
+     "word": " hal",
+     "start": 98.26,
+     "end": 98.54
+    },
+    {
+     "word": "  yang",
+     "start": 98.54,
+     "end": 98.64
+    },
+    {
+     "word": "  menarik",
+     "start": 98.64,
+     "end": 98.96
+    },
+    {
+     "word": "  ya.",
+     "start": 98.96,
+     "end": 99.23
+    },
+    {
+     "word": "  Tapi",
+     "start": 99.54,
+     "end": 99.84
+    },
+    {
+     "word": "  Gue",
+     "start": 99.84,
+     "end": 99.95
+    },
+    {
+     "word": "  mau",
+     "start": 99.96,
+     "end": 100.08
+    },
+    {
+     "word": "  ngomongin",
+     "start": 100.08,
+     "end": 100.36
+    },
+    {
+     "word": "  dari",
+     "start": 100.36,
+     "end": 100.52
+    },
+    {
+     "word": " sisi",
+     "start": 100.52,
+     "end": 100.72
+    },
+    {
+     "word": "  sebaliknya.",
+     "start": 100.72,
+     "end": 101.26
+    },
+    {
+     "word": "  Hayo,",
+     "start": 101.26,
+     "end": 108.42
+    },
+    {
+     "word": "  hang",
+     "start": 108.42,
+     "end": 108.94
+    },
+    {
+     "word": " out",
+     "start": 108.94,
+     "end": 109.02
+    },
+    {
+     "word": "  yo,",
+     "start": 109.08,
+     "end": 109.16
+    },
+    {
+     "word": " ngobrol",
+     "start": 109.16,
+     "end": 109.44
+    },
+    {
+     "word": "  gitu.",
+     "start": 109.44,
+     "end": 109.84
+    },
+    {
+     "word": "  Ya",
+     "start": 109.84,
+     "end": 110.4
+    },
+    {
+     "word": "  hm",
+     "start": 110.53,
+     "end": 111.54
+    },
+    {
+     "word": "  Gue",
+     "start": 111.54,
+     "end": 112.0
+    },
+    {
+     "word": "  bah",
+     "start": 112.0,
+     "end": 112.12
+    },
+    {
+     "word": " kan",
+     "start": 112.12,
+     "end": 112.24
+    },
+    {
+     "word": "  bisa",
+     "start": 112.24,
+     "end": 112.42
+    },
+    {
+     "word": "  se",
+     "start": 112.42,
+     "end": 112.48
+    },
+    {
+     "word": " but",
+     "start": 112.48,
+     "end": 112.68
+    },
+    {
+     "word": " namanya",
+     "start": 112.72,
+     "end": 113.14
+    },
+    {
+     "word": "  gitu",
+     "start": 113.14,
+     "end": 113.44
+    },
+    {
+     "word": "  ya",
+     "start": 113.44,
+     "end": 113.66
+    },
+    {
+     "word": "  uhm",
+     "start": 113.66,
+     "end": 114.1
+    },
+    {
+     "word": " akun",
+     "start": 114.1,
+     "end": 114.46
+    },
+    {
+     "word": " nya",
+     "start": 114.46,
+     "end": 114.64
+    },
+    {
+     "word": "  la",
+     "start": 114.64,
+     "end": 114.81
+    },
+    {
+     "word": "  uhm",
+     "start": 114.81,
+     "end": 115.24
+    },
+    {
+     "word": " ada",
+     "start": 115.24,
+     "end": 115.54
+    },
+    {
+     "word": "  The",
+     "start": 115.54,
+     "end": 115.74
+    },
+    {
+     "word": " Wob",
+     "start": 115.74,
+     "end": 115.98
+    },
+    {
+     "word": " bly",
+     "start": 115.98,
+     "end": 116.0
+    },
+    {
+     "word": "  Ninja",
+     "start": 116.0,
+     "end": 116.46
+    },
+    {
+     "word": "  dia",
+     "start": 116.46,
+     "end": 116.62
+    },
+    {
+     "word": "  dari",
+     "start": 116.62,
+     "end": 116.84
+    },
+    {
+     "word": "  Kalimantan",
+     "start": 116.84,
+     "end": 117.44
+    },
+    {
+     "word": "  dia",
+     "start": 117.44,
+     "end": 118.28
+    },
+    {
+     "word": "  suka",
+     "start": 118.28,
+     "end": 118.94
+    },
+    {
+     "word": " kalo",
+     "start": 118.94,
+     "end": 119.42
+    },
+    {
+     "word": "  main",
+     "start": 119.42,
+     "end": 119.9
+    },
+    {
+     "word": "  ya",
+     "start": 119.9,
+     "end": 120.12
+    },
+    {
+     "word": "  kita",
+     "start": 120.12,
+     "end": 120.22
+    },
+    {
+     "word": "  udah",
+     "start": 120.22,
+     "end": 120.34
+    },
+    {
+     "word": "  pernah",
+     "start": 120.34,
+     "end": 120.54
+    },
+    {
+     "word": " ngobrol",
+     "start": 120.54,
+     "end": 120.86
+    },
+    {
+     "word": "  beberapa",
+     "start": 120.86,
+     "end": 121.22
+    },
+    {
+     "word": "  kali",
+     "start": 121.22,
+     "end": 121.56
+    },
+    {
+     "word": "  datang",
+     "start": 121.56,
+     "end": 122.1
+    },
+    {
+     "word": " ke",
+     "start": 122.1,
+     "end": 122.3
+    },
+    {
+     "word": "  Jakarta",
+     "start": 122.3,
+     "end": 122.72
+    },
+    {
+     "word": " ketemuan",
+     "start": 122.72,
+     "end": 123.3
+    },
+    {
+     "word": "  ya",
+     "start": 123.3,
+     "end": 124.18
+    },
+    {
+     "word": "  terus",
+     "start": 124.18,
+     "end": 124.7
+    },
+    {
+     "word": "  uhm",
+     "start": 124.7,
+     "end": 125.36
+    },
+    {
+     "word": "  ada",
+     "start": 125.36,
+     "end": 125.64
+    },
+    {
+     "word": " Feni",
+     "start": 125.64,
+     "end": 125.94
+    },
+    {
+     "word": " Feni",
+     "start": 125.94,
+     "end": 126.16
+    },
+    {
+     "word": "  like",
+     "start": 126.16,
+     "end": 126.5
+    },
+    {
+     "word": "  shout",
+     "start": 126.5,
+     "end": 126.74
+    },
+    {
+     "word": " out",
+     "start": 126.74,
+     "end": 126.94
+    },
+    {
+     "word": "  dia",
+     "start": 127.13,
+     "end": 127.22
+    },
+    {
+     "word": " lalu",
+     "start": 127.22,
+     "end": 127.62
+    },
+    {
+     "word": " ngambil",
+     "start": 127.62,
+     "end": 128.46
+    },
+    {
+     "word": "  waktu",
+     "start": 128.46,
+     "end": 128.74
+    },
+    {
+     "word": "  untuk",
+     "start": 128.74,
+     "end": 128.94
+    },
+    {
+     "word": "  nulis",
+     "start": 128.94,
+     "end": 129.18
+    },
+    {
+     "word": "  kom",
+     "start": 129.18,
+     "end": 129.38
+    },
+    {
+     "word": " men",
+     "start": 129.38,
+     "end": 129.5
+    },
+    {
+     "word": "  yang",
+     "start": 129.5,
+     "end": 129.63
+    },
+    {
+     "word": "  menurut",
+     "start": 129.63,
+     "end": 129.78
+    },
+    {
+     "word": "  gue",
+     "start": 129.78,
+     "end": 129.95
+    },
+    {
+     "word": " anjir",
+     "start": 130.06,
+     "end": 130.63
+    },
+    {
+     "word": "  ini",
+     "start": 130.63,
+     "end": 130.84
+    },
+    {
+     "word": "  kom",
+     "start": 130.84,
+     "end": 130.97
+    },
+    {
+     "word": " men",
+     "start": 130.97,
+     "end": 131.08
+    },
+    {
+     "word": "  bukan",
+     "start": 131.08,
+     "end": 131.34
+    },
+    {
+     "word": " 1",
+     "start": 131.34,
+     "end": 131.5
+    },
+    {
+     "word": "  menit",
+     "start": 131.54,
+     "end": 131.74
+    },
+    {
+     "word": "  di",
+     "start": 131.74,
+     "end": 131.9
+    },
+    {
+     "word": " ketik",
+     "start": 131.9,
+     "end": 132.16
+    },
+    {
+     "word": "  nih",
+     "start": 132.16,
+     "end": 132.47
+    }
+   ]
+  }
+ ]
+}

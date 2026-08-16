@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "name": "Sumber daya reduplikasi & kelas kata fungsi Bahasa Indonesia",
+    "version": "0.1.0",
+    "tujuan": "Membedakan reduplikasi morfologis (gramatikal, WAJIB dipertahankan) dari repetition disfluency (tidak disengaja, layak dipotong). Ini adalah sumber ambiguitas khas Bahasa Indonesia yang tidak muncul pada bahasa Inggris.",
+    "rujukan_fenomena": "Reduplikasi penuh (anak-anak), reduplikasi semu/inheren (kupu-kupu), reduplikasi berima (sayur-mayur), dan reduplikasi berafiks (berlari-lari, tarik-menarik)."
+  },
+
+  "inheren": [
+    "kupu-kupu", "laba-laba", "kura-kura", "ubur-ubur", "lumba-lumba",
+    "cumi-cumi", "biri-biri", "layang-layang", "paru-paru", "empek-empek",
+    "teka-teki", "undang-undang", "gara-gara", "pura-pura", "sia-sia",
+    "alun-alun", "kupu-kupu", "onde-onde", "otak-otak", "kunang-kunang",
+    "anai-anai", "ubun-ubun", "labi-labi", "rama-rama"
+  ],
+
+  "berima": [
+    "sayur-mayur", "ramah-tamah", "gerak-gerik", "warna-warni",
+    "mondar-mandir", "bolak-balik", "compang-camping", "kacau-balau",
+    "huru-hara", "simpang-siur", "tunggang-langgang", "lauk-pauk",
+    "serba-serbi", "desas-desus", "corat-coret", "porak-poranda",
+    "gotong-royong", "tolong-menolong", "tindih-menindih"
+  ],
+
+  "lexicalized": [
+    "anak-anak", "orang-orang", "teman-teman", "kawan-kawan",
+    "buku-buku", "barang-barang", "hal-hal", "jenis-jenis",
+    "macam-macam", "bagian-bagian", "pihak-pihak", "kata-kata",
+    "tempat-tempat", "hari-hari", "kota-kota", "negara-negara",
+    "ide-ide", "data-data", "sekolah-sekolah", "rumah-rumah",
+    "murid-murid", "guru-guru", "bapak-bapak", "ibu-ibu",
+    "adik-adik", "kakak-kakak", "saudara-saudara", "tetangga-tetangga",
+    "tiba-tiba", "kadang-kadang", "buru-buru", "hati-hati",
+    "diam-diam", "pelan-pelan", "cepat-cepat", "lama-lama",
+    "baik-baik", "sedikit-sedikit", "sungguh-sungguh", "benar-benar",
+    "betul-betul", "malu-malu", "tanda-tanda", "seolah-olah",
+    "akhir-akhir", "baru-baru", "mula-mula", "terus-menerus",
+    "jalan-jalan", "main-main", "coba-coba", "lihat-lihat",
+    "cari-cari", "tanya-tanya", "iseng-iseng", "santai-santai",
+    "pagi-pagi", "malam-malam", "siang-siang", "subuh-subuh",
+    "sore-sore", "jauh-jauh", "susah-susah", "capek-capek",
+    "masing-masing", "tiap-tiap", "satu-satu", "dua-dua",
+    "sama-sama", "kira-kira", "sekali-kali", "sewaktu-waktu",
+    "sesekali", "berbondong-bondong", "berlari-lari", "berjalan-jalan",
+    "bermain-main", "berputar-putar", "bergoyang-goyang",
+    "tarik-menarik", "kejar-kejaran", "pukul-memukul", "surat-menyurat",
+    "kupu-kupuan", "mobil-mobilan", "rumah-rumahan", "kuda-kudaan"
+  ],
+
+  "kata_fungsi": [
+    "saya", "aku", "gue", "gua", "kamu", "kau", "lu", "lo", "anda",
+    "dia", "ia", "beliau", "kita", "kami", "mereka", "nya",
+    "yang", "di", "ke", "dari", "pada", "kepada", "untuk", "buat",
+    "dengan", "sama", "oleh", "dalam", "atas", "bawah", "antara",
+    "dan", "atau", "tetapi", "tapi", "namun", "melainkan", "serta",
+    "karena", "sebab", "kalau", "jika", "bila", "apabila", "bahwa",
+    "adalah", "ialah", "yaitu", "yakni",
+    "itu", "ini", "situ", "sini", "sana",
+    "akan", "sudah", "telah", "sedang", "lagi", "masih", "belum",
+    "tidak", "nggak", "ngga", "gak", "enggak", "bukan", "jangan",
+    "harus", "mesti", "bisa", "dapat", "boleh", "mau", "ingin",
+    "juga", "saja", "aja", "hanya", "cuma", "pun", "per",
+    "ada", "para", "sang", "si",
+    "terhadap", "sebagai", "tentang", "mengenai", "hingga", "sampai",
+    "agar", "supaya", "sehingga", "ketika", "saat", "waktu",
+    "setelah", "sebelum", "selama", "sejak",
+    "walaupun", "meskipun", "meski", "kendati", "maka", "lalu"
+  ],
+
+  "kata_fungsi_boleh_reduplikasi": [
+    "masing-masing", "tiap-tiap", "satu-satu", "sama-sama",
+    "kira-kira", "mula-mula", "sekali-kali", "sewaktu-waktu",
+    "kadang-kadang", "lama-lama", "akhir-akhir", "baru-baru",
+    "diam-diam", "tiba-tiba"
+  ],
+
+  "pola_afiks_reduplikasi": {
+    "catatan": "Regex diterapkan pada bentuk bertanda hubung untuk mengenali reduplikasi berafiks yang produktif sehingga tidak perlu didaftar satu per satu.",
+    "pola": [
+      "^ber([a-z]+)-\\1$",
+      "^ter([a-z]+)-\\1$",
+      "^([a-z]+)-me[nmngy]?\\1$",
+      "^([a-z]+)-\\1an$",
+      "^se([a-z]+)-\\1nya$",
+      "^ke([a-z]+)-\\1an$"
+    ]
+  },
+
+  "ambang_prosodi": {
+    "catatan": "Nilai awal (prior) untuk aturan berbasis jeda, diturunkan dari asumsi bahwa reduplikasi diucapkan sebagai satu kata prosodi tunggal sementara repetisi disfluen disela hesitasi. Angka ini WAJIB dikalibrasi ulang pada data ucapan Bahasa Indonesia yang sebenarnya.",
+    "gap_reduplikasi_maks_detik": 0.08,
+    "gap_disfluensi_min_detik": 0.18
+  }
+}

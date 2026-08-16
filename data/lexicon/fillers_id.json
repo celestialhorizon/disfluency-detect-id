@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "name": "Leksikon filler & penanda wacana Bahasa Indonesia lisan",
+    "version": "0.1.0",
+    "scope": "Ragam lisan spontan (podcast, wawancara, vlog), termasuk ragam kolokial Jakarta",
+    "catatan": "Daftar disusun manual oleh peneliti dari pengamatan ragam lisan Indonesia. Bentuk dengan pemanjangan vokal (eeee, hmmm) tidak perlu didaftar satu per satu: modul lexicon.py meredam pengulangan huruf menjadi maksimal dua sebelum pencarian.",
+    "label_mapping": {
+      "filled_pause": "FP",
+      "discourse_marker": "DM",
+      "editing_term": "RPR"
+    }
+  },
+
+  "filled_pause": [
+    "e", "ee", "eee",
+    "em", "emm",
+    "hm", "hmm",
+    "mm", "mmm", "mmh",
+    "ehm", "ehem", "heem", "hem",
+    "aa", "aaa",
+    "oo", "ooo",
+    "uh", "uhm", "um",
+    "er", "err",
+    "ng", "nggg",
+    "anu"
+  ],
+
+  "filled_pause_ambiguous": [
+    "eh", "ah", "oh", "ih", "aduh", "wah"
+  ],
+
+  "discourse_marker": [
+    "jadi", "jadinya",
+    "nah",
+    "terus", "trus",
+    "kayak", "kaya", "kayaknya",
+    "gitu", "gini",
+    "ya", "yah", "iya",
+    "kan", "sih", "deh", "dong", "tuh", "nih", "lah",
+    "pokoknya",
+    "istilahnya", "ibaratnya", "semacam", "semacem",
+    "gimana", "apa",
+    "sebenarnya", "sebenernya", "sebetulnya",
+    "mungkin", "mungkin ya",
+    "oke", "okay",
+    "gitu deh", "ya udah"
+  ],
+
+  "discourse_marker_multiword": [
+    "apa ya",
+    "apa sih",
+    "apa tuh",
+    "apa namanya",
+    "apa istilahnya",
+    "gimana ya",
+    "gimana sih",
+    "gimana bilangnya",
+    "itu loh",
+    "itu lho",
+    "gitu loh",
+    "gitu lho",
+    "gitu ya",
+    "gitu kan",
+    "gini loh",
+    "gini lho",
+    "ya kan",
+    "iya kan",
+    "kayak gitu",
+    "kayak gini",
+    "apa ya namanya",
+    "gimana ya ngomongnya",
+    "ya pokoknya",
+    "jadi gitu",
+    "nah itu",
+    "kurang lebih"
+  ],
+
+  "editing_term": [
+    "eh",
+    "maaf",
+    "sori",
+    "sorry",
+    "ralat",
+    "maksudnya",
+    "maksud saya",
+    "bukan"
+  ],
+
+  "editing_term_kuat": [
+    "eh",
+    "maaf",
+    "sori",
+    "sorry",
+    "ralat",
+    "maksudnya"
+  ],
+
+  "catatan_ambiguitas": {
+    "ya": "Berfungsi sebagai jawaban afirmatif (bermakna) maupun filler akhir klausa. Konteks menentukan; model berbasis fitur yang memutuskan, bukan leksikon.",
+    "apa": "Kata tanya bermakna, tetapi lazim dipakai sebagai penanda ragu ketika penutur mencari kata.",
+    "bukan": "Negasi bermakna, sekaligus penanda koreksi pada konstruksi ralat.",
+    "salah/atau": "Sengaja TIDAK dimasukkan sebagai penanda ralat. 'salah' hampir selalu muncul dalam frasa lekat bermakna ('kalau tidak salah'), dan 'atau' jauh lebih sering menjadi konjungsi biasa daripada penanda koreksi. Memasukkannya menghasilkan positif palsu sistematis, sementara penanda ralat yang benar-benar produktif dalam ragam lisan Indonesia sudah tercakup oleh 'eh', 'maaf', dan 'maksudnya'.",
+    "eh": "Interjeksi kaget (bermakna) sekaligus penanda ralat paling umum dalam ragam lisan Indonesia.",
+    "jadi": "Konjungsi konsekutif bermakna, sekaligus pembuka giliran bicara yang kosong makna.",
+    "begitu/begini/intinya": "Sengaja TIDAK dimasukkan ke daftar. Bentuk baku 'begitu'/'begini' dan 'intinya' jauh lebih sering membawa makna penuh ('bukan begitu arahnya', 'intinya kita harus revisi') dibanding berfungsi sebagai filler, sehingga memasukkannya menimbulkan positif palsu sistematis. Ragam kolokialnya, 'gitu' dan 'gini', tetap didaftar."
+  }
+}

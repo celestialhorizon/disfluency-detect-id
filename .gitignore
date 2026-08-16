@@ -1,0 +1,18 @@
+# Rekaman sumber: suara orang sungguhan, ~1 GB, dan tidak boleh
+# diredistribusi (lihat data/media/CATATAN.md). Jangan pernah didorong ke
+# repositori mana pun, termasuk yang privat.
+data/media/*.mp4
+data/media/*.mkv
+data/media/*.mov
+data/media/*.webm
+data/media/*.wav
+data/media/*.m4a
+data/media/*.mp3
+data/media/*.flac
+
+# Hasil bangkitan: dapat dilatih ulang dari korpus.
+models/*.json
+
+__pycache__/
+.pytest_cache/
+*.pyc

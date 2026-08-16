@@ -1,0 +1,240 @@
+# =====================================================================
+# KORPUS BENIH - Disfluensi Ucapan Spontan Bahasa Indonesia
+# =====================================================================
+#
+# SIFAT DATA (baca sebelum memakai angka apa pun dari korpus ini):
+# Kalimat di berkas ini DITULIS TANGAN oleh peneliti sebagai contoh
+# fenomena kebahasaan, BUKAN transkrip rekaman nyata. Fungsinya adalah
+# menguji kebenaran pipeline (unit test tingkat sistem) dan mengunci
+# pedoman anotasi sebelum anotasi korpus sungguhan dimulai. Metrik yang
+# dihasilkan dari korpus ini TIDAK BOLEH dilaporkan sebagai temuan
+# empiris; ia hanya membuktikan bahwa perangkatnya berjalan.
+#
+# FORMAT
+#   kata/TAG   -> token beranotasi
+#   kata       -> token fluen (label O tersirat)
+#   # ...      -> komentar
+#
+# TAGSET
+#   FP   filled pause              eee, emm, hmm, anu
+#   DM   discourse marker filler   kayak, gitu, nah, apa ya
+#   REP  repetition disfluency     salinan berlebih yang dibuang
+#   RPR  reparandum + editing term materi batal yang diralat
+#   PW   partial word              fragmen kata terpotong (pe-)
+#   O    fluen (default)
+#
+# PEDOMAN ANOTASI (keputusan yang dikunci agar anotasi konsisten)
+#   1. Pada repetisi, yang ditandai REP adalah salinan AWAL; salinan
+#      terakhir dipertahankan karena itulah yang diteruskan penutur.
+#   2. Pada ralat, reparandum DAN penanda ralat (eh, maaf, bukan,
+#      maksudnya) sama-sama ditandai RPR; bagian perbaikannya O.
+#   3. "jadi" di awal giliran bicara = DM (pembuka kosong makna);
+#      "jadi" di tengah setelah sebab yang disebut = O (konjungsi).
+#   4. "ya" sebagai jawaban afirmatif = O; "ya" penutup klausa = DM.
+#   5. "apa" sebagai kata tanya = O; "apa" saat mencari kata = DM.
+#   6. Reduplikasi gramatikal SELALU O, baik ditulis bertanda hubung
+#      (anak-anak) maupun terpisah (anak anak). Inilah kelas negatif
+#      terpenting: kesalahan memotongnya merusak makna kalimat.
+
+# --------------------------------------------------------------------
+# BAGIAN 1 - Filled pause
+# --------------------------------------------------------------------
+eee/FP jadi/DM hari ini kita bahas soal produktivitas kerja
+emm/FP saya rasa itu pertanyaan yang bagus sekali
+hmm/FP menarik juga pendapat kamu soal itu
+saya eee/FP belum sempat baca laporannya sampai selesai
+menurut saya emm/FP itu sangat tergantung situasinya
+kita perlu ee/FP menyiapkan datanya dari awal
+ehm/FP boleh saya lanjut ke bagian berikutnya
+aa/FP maksud saya bukan begitu arahnya
+mmm/FP kalau soal harga saya kurang tahu detailnya
+proyek itu eee/FP sudah berjalan hampir dua tahun
+anu/FP saya lupa nama tempatnya tadi
+dia bilang ee/FP dia tidak bisa datang besok
+hmm/FP sebentar saya cek dulu catatannya
+kalau tidak salah emm/FP acaranya mulai jam sembilan
+uh/FP sebenarnya/DM saya belum siap menjawab itu
+kami sudah eee/FP mengirim proposalnya minggu lalu
+em/FP bagaimana kalau kita mulai dari yang paling mudah
+tim kami ee/FP masih menunggu konfirmasi dari klien
+oo/FP ternyata masalahnya ada di konfigurasi server
+jadi/DM eee/FP intinya kita harus revisi total
+saya pikir mm/FP pendekatan itu terlalu berisiko
+materinya eee/FP cukup padat untuk sesi satu jam
+ehm/FP izin bertanya soal metodologinya
+kalau boleh jujur emm/FP saya agak ragu dengan angka itu
+hasilnya ee/FP belum keluar sampai sekarang
+
+# --------------------------------------------------------------------
+# BAGIAN 2 - Discourse marker sebagai filler
+# --------------------------------------------------------------------
+jadi/DM gini/DM sebenarnya/DM masalahnya cukup sederhana
+nah/DM di situlah letak kesulitannya
+terus/DM saya coba jalankan ulang programnya
+itu kayak/DM susah dijelaskan pakai kalimat pendek
+hasilnya bagus gitu/DM menurut saya pribadi
+apa/DM ya/DM saya bingung mulai dari mana
+apa/DM namanya/DM itu yang dipakai buat menyunting video
+gimana/DM ya/DM susah juga menjelaskannya ke orang awam
+pokoknya/DM kita harus selesai sebelum hari Jumat
+itu/DM loh/DM yang kemarin kita bahas di rapat
+ya/DM kan/DM kita sudah sepakat soal tenggat itu
+istilahnya/DM kita harus mulai dari nol lagi
+nah/DM terus/DM saya tanya langsung ke atasan saya
+dia orangnya kayak/DM terlalu menuntut kesempurnaan
+jadi/DM ya/DM begitulah kondisinya sekarang
+gitu/DM loh/DM maksud saya dari tadi
+semacam/DM ada yang tidak beres dengan datanya
+kita tuh/DM sering lupa hal sederhana begini
+sebenernya/DM tidak sesulit yang kamu bayangkan
+nah/DM ini yang mau saya tekankan sejak awal
+kayak/DM gitu/DM cara kerjanya kira-kira
+terus/DM akhirnya kami putuskan untuk berhenti
+jadi/DM apa/DM ya/DM hasilnya kurang memuaskan
+ibaratnya/DM kita sedang membangun rumah tanpa fondasi
+dia bilang begitu sih/DM saya juga kurang yakin
+
+# --------------------------------------------------------------------
+# BAGIAN 3 - Repetition disfluency
+# --------------------------------------------------------------------
+saya/REP saya mau tanya soal jadwal presentasinya
+yang/REP yang penting datanya sudah lengkap
+di/REP di bagian ini kita perlu tambahan waktu
+kita/REP kita harus lebih cermat soal anggaran
+itu/REP itu masalah yang paling sering muncul
+dia/REP dia sempat cerita soal proyek barunya
+untuk/REP untuk sementara kita pakai versi lama
+dan/REP dan hasilnya jauh dari harapan kami
+tidak/REP tidak ada yang menyangka hal itu terjadi
+kalau/REP kalau boleh saya usul begini saja
+mereka/REP mereka sudah konfirmasi kemarin sore
+dengan/REP dengan cara itu kita hemat banyak waktu
+ke/REP ke kantor pusat saya belum pernah
+sudah/REP sudah saya kirim lewat surel tadi pagi
+bisa/REP bisa jadi asumsi awal kami keliru
+sistem/REP sistem yang lama sudah tidak didukung lagi
+proses/REP proses rekrutmennya memakan waktu lama
+laporan/REP laporan ini harus selesai malam ini
+saya/REP saya/REP saya benar-benar lupa soal janji itu
+yang/REP yang/REP yang jelas kita butuh data tambahan
+karena/REP karena waktunya memang sangat mepet
+harus/REP harus ada evaluasi menyeluruh dulu
+datanya/REP datanya belum sempat kami validasi
+jadi/REP jadi kesimpulannya masih bersifat sementara
+tim/REP tim kami sedang menyiapkan versi berikutnya
+
+# --------------------------------------------------------------------
+# BAGIAN 4 - Reduplikasi bertanda hubung (WAJIB dipertahankan)
+# --------------------------------------------------------------------
+anak-anak sekarang lebih cepat belajar teknologi baru
+kita harus hati-hati membaca isi kontraknya
+tiba-tiba servernya mati tanpa peringatan apa pun
+teman-teman saya banyak yang pindah ke luar kota
+kadang-kadang saya merasa pekerjaan ini terlalu berat
+buku-buku referensinya sudah saya kumpulkan semua
+jangan buru-buru mengambil kesimpulan dari satu sampel
+mereka jalan-jalan ke Bandung akhir pekan lalu
+data-data itu perlu dibersihkan sebelum dianalisis
+pelan-pelan saja tidak usah dikejar target
+macam-macam alasannya kalau ditanya soal keterlambatan
+hal-hal kecil seperti ini sering terlewat dari perhatian
+kupu-kupu itu menjadi objek penelitian mereka
+undang-undang yang baru mulai berlaku tahun depan
+dia pura-pura tidak tahu soal masalah itu
+warna-warni grafiknya membuat laporan lebih mudah dibaca
+mondar-mandir sejak pagi tapi belum ada hasilnya
+masing-masing tim punya target yang berbeda
+kira-kira berapa lama proses migrasinya nanti
+berlari-lari di koridor kantor itu tidak sopan
+surat-menyurat resminya sudah kami arsipkan rapi
+mobil-mobilan itu dipakai untuk demo sensor jarak
+sayur-mayur di pasar itu harganya naik terus
+orang-orang mulai sadar pentingnya keamanan data pribadi
+benar-benar tidak ada yang bisa kami lakukan
+
+# --------------------------------------------------------------------
+# BAGIAN 5 - Kasus sulit: reduplikasi tanpa tanda hubung & campuran
+# ASR sering menuliskan reduplikasi sebagai dua token terpisah.
+# Bentuknya identik dengan repetisi disfluen; hanya bukti leksikal
+# dan prosodi yang membedakan.
+# --------------------------------------------------------------------
+anak anak sekarang lebih suka menonton konten pendek
+teman teman saya banyak yang sudah pindah kerja
+hati hati kalau menyeberang di jalan besar itu
+tiba tiba koneksinya putus di tengah rapat penting
+kadang kadang hasilnya tidak sesuai dugaan kami
+buru buru begitu malah bikin banyak kesalahan
+dia jalan jalan ke Jepang bulan lalu bersama keluarganya
+orang orang di sini ramah sekali kepada tamu
+pelan pelan saja jangan sampai salah langkah
+satu satu kita periksa berkasnya biar teliti
+saya/REP saya lupa membawa dokumen pentingnya
+anak-anak/REP anak-anak itu belum sarapan sejak pagi
+eee/FP anak-anak sekarang lebih suka konten pendek
+jadi/DM saya/REP saya kurang paham maksud pertanyaannya
+kita/REP kita perlu hati-hati soal anggaran tahun ini
+eee/FP macam-macam alasannya kalau kita tanya langsung
+yang/REP yang jelas data-data itu sudah kami periksa
+nah/DM tiba-tiba saja semua sistemnya berhenti bekerja
+itu/REP itu macam-macam bentuknya tergantung kebutuhan
+hmm/FP kira-kira berapa biaya yang harus kami siapkan
+
+# --------------------------------------------------------------------
+# BAGIAN 6 - Partial word (fragmen kata terpotong)
+# --------------------------------------------------------------------
+pe-/PW peneliti itu sudah lama menekuni bidang tersebut
+kami mengan-/PW menganalisis datanya pakai metode berbeda
+dia meng-/PW mengirim laporannya tadi malam sekali
+saya ber-/PW berencana pindah ke tim lain tahun depan
+proyek ini mem-/PW membutuhkan waktu lebih panjang
+kita har-/PW harus segera memutuskan langkah berikutnya
+mak-/PW maksudnya begini biar tidak salah paham
+eee/FP peng-/PW pengujiannya belum selesai sampai sekarang
+data-/PW datanya belum sempat kami unggah ke server
+sis-/PW sistemnya sempat mati selama dua jam penuh
+jadi/DM ren-/PW rencananya kami ubah total minggu ini
+per-/PW perusahaan itu baru saja mengganti direkturnya
+
+# --------------------------------------------------------------------
+# BAGIAN 7 - Ralat (reparandum + penanda ralat)
+# --------------------------------------------------------------------
+kami kirim hari/RPR Senin/RPR eh/RPR hari Selasa pagi
+dia tinggal di/RPR Bandung/RPR eh/RPR di Bogor sekarang
+harganya lima/RPR juta/RPR maaf/RPR enam juta rupiah
+saya mau ke/RPR pasar/RPR eh/RPR ke toko buku dulu
+rapatnya jam/RPR sembilan/RPR bukan/RPR jam sepuluh pagi
+datanya ada seribu/RPR maksudnya/RPR seribu dua ratus baris
+dia dosen/RPR eh/RPR peneliti di kampus itu
+kita pakai metode/RPR kuantitatif/RPR eh/RPR metode campuran saja
+laporannya sudah/RPR dikirim/RPR eh/RPR belum dikirim sebenarnya
+warnanya merah/RPR bukan/RPR merah muda yang saya maksud
+jumlahnya dua/RPR puluh/RPR maaf/RPR tiga puluh peserta
+tim kami ada lima/RPR maksud/RPR saya/RPR enam orang termasuk saya
+filenya di/RPR folder/RPR unduhan/RPR eh/RPR di folder dokumen
+eee/FP kami mulai proyeknya bulan/RPR Maret/RPR eh/RPR bulan April
+sampelnya seratus/RPR responden/RPR eh/RPR seratus lima puluh responden
+
+# --------------------------------------------------------------------
+# BAGIAN 8 - Ujaran fluen penuh (kelas negatif murni)
+# Termasuk pemakaian bermakna dari kata yang di tempat lain jadi filler.
+# --------------------------------------------------------------------
+penelitian ini menggunakan pendekatan kuantitatif dengan analisis regresi
+jumlah responden yang berhasil kami kumpulkan mencapai tiga ratus orang
+metode pengumpulan data dilakukan melalui kuesioner daring
+hasil pengujian menunjukkan perbedaan yang signifikan antar kelompok
+sistem ini dirancang untuk memproses berkas audio secara otomatis
+kami membandingkan tiga model dengan konfigurasi parameter yang sama
+akurasi model meningkat setelah proses penyetelan ulang parameter
+dokumentasi lengkapnya tersedia di repositori resmi proyek tersebut
+tahap validasi dilakukan oleh dua anotator yang bekerja terpisah
+kesimpulan penelitian ini masih memerlukan pengujian lanjutan
+antarmuka aplikasinya dirancang agar mudah dipakai penyunting pemula
+proses transkripsi otomatis memangkas waktu penyuntingan secara nyata
+setiap keputusan pemotongan dicatat agar dapat ditelusuri kembali
+karena hasilnya belum stabil jadi kami memutuskan menunda peluncuran
+ya saya setuju dengan usulan yang kamu sampaikan tadi
+apa yang kamu maksud dengan istilah teknis itu
+dia bertanya apa saya bisa hadir besok pagi
+gitu saja sudah cukup untuk laporan tahap pertama
+kami menolak usulan itu karena anggarannya tidak masuk akal
+persoalannya bukan pada sisi teknis melainkan pada komunikasi tim

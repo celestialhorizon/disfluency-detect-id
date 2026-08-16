@@ -1,0 +1,1088 @@
+{
+ "bahasa": "id",
+ "durasi": 121.36,
+ "model": "nyrahealth/CrisperWhisper",
+ "setelan": {
+  "jendela_dtk": 30,
+  "maks_token": 160,
+  "tokenizer_dari": "openai/whisper-large-v3",
+  "koreksi_senyap": true,
+  "repetition_penalty": null,
+  "no_repeat_ngram_size": null
+ },
+ "rentang_rusak": [
+  {
+   "mulai": 99.62,
+   "henti": 121.36,
+   "putaran": 76,
+   "isi": "he"
+  }
+ ],
+ "segments": [
+  {
+   "start": 6.13,
+   "end": 18.03,
+   "text": "  Begitu  gak  sih?  Iya,  betul  betul  dok,  betul  betul  banget  dok.  Kita  kan  bahas  sedikit  tentang  tentang  memory re con solidation  atau re kon solidasi  memory.  uhm ribet  banget  itu  tadi  dengarnya,  to log  to log  di  buat  pakai  bahasa  manusia.  Doktor",
+   "words": [
+    {
+     "word": "  Begitu",
+     "start": 6.13,
+     "end": 6.2
+    },
+    {
+     "word": "  gak",
+     "start": 6.2,
+     "end": 6.3
+    },
+    {
+     "word": "  sih?",
+     "start": 6.3,
+     "end": 6.48
+    },
+    {
+     "word": "  Iya,",
+     "start": 6.48,
+     "end": 6.9
+    },
+    {
+     "word": "  betul",
+     "start": 6.9,
+     "end": 7.16
+    },
+    {
+     "word": "  betul",
+     "start": 7.16,
+     "end": 7.36
+    },
+    {
+     "word": "  dok,",
+     "start": 7.36,
+     "end": 7.58
+    },
+    {
+     "word": "  betul",
+     "start": 7.58,
+     "end": 7.78
+    },
+    {
+     "word": "  betul",
+     "start": 7.78,
+     "end": 8.03
+    },
+    {
+     "word": "  banget",
+     "start": 8.03,
+     "end": 8.27
+    },
+    {
+     "word": "  dok.",
+     "start": 8.27,
+     "end": 8.43
+    },
+    {
+     "word": "  Kita",
+     "start": 8.58,
+     "end": 9.03
+    },
+    {
+     "word": "  kan",
+     "start": 9.03,
+     "end": 9.18
+    },
+    {
+     "word": "  bahas",
+     "start": 9.18,
+     "end": 9.46
+    },
+    {
+     "word": "  sedikit",
+     "start": 9.46,
+     "end": 9.66
+    },
+    {
+     "word": "  tentang",
+     "start": 9.69,
+     "end": 10.16
+    },
+    {
+     "word": "  tentang",
+     "start": 10.16,
+     "end": 10.66
+    },
+    {
+     "word": "  memory",
+     "start": 10.66,
+     "end": 11.06
+    },
+    {
+     "word": " re",
+     "start": 11.06,
+     "end": 11.16
+    },
+    {
+     "word": " con",
+     "start": 11.16,
+     "end": 11.24
+    },
+    {
+     "word": " solidation",
+     "start": 11.29,
+     "end": 11.86
+    },
+    {
+     "word": "  atau",
+     "start": 11.86,
+     "end": 12.1
+    },
+    {
+     "word": " re",
+     "start": 12.1,
+     "end": 12.18
+    },
+    {
+     "word": " kon",
+     "start": 12.18,
+     "end": 12.28
+    },
+    {
+     "word": " solidasi",
+     "start": 12.28,
+     "end": 12.82
+    },
+    {
+     "word": "  memory.",
+     "start": 12.82,
+     "end": 13.32
+    },
+    {
+     "word": "  uhm",
+     "start": 13.32,
+     "end": 13.78
+    },
+    {
+     "word": " ribet",
+     "start": 13.78,
+     "end": 14.33
+    },
+    {
+     "word": "  banget",
+     "start": 14.4,
+     "end": 14.58
+    },
+    {
+     "word": "  itu",
+     "start": 14.58,
+     "end": 14.7
+    },
+    {
+     "word": "  tadi",
+     "start": 14.78,
+     "end": 14.94
+    },
+    {
+     "word": "  dengarnya,",
+     "start": 14.94,
+     "end": 15.4
+    },
+    {
+     "word": "  to",
+     "start": 15.4,
+     "end": 15.62
+    },
+    {
+     "word": " log",
+     "start": 15.62,
+     "end": 15.62
+    },
+    {
+     "word": "  to",
+     "start": 15.62,
+     "end": 15.94
+    },
+    {
+     "word": " log",
+     "start": 15.94,
+     "end": 15.96
+    },
+    {
+     "word": "  di",
+     "start": 15.96,
+     "end": 16.05
+    },
+    {
+     "word": "  buat",
+     "start": 16.05,
+     "end": 16.28
+    },
+    {
+     "word": "  pakai",
+     "start": 16.28,
+     "end": 16.52
+    },
+    {
+     "word": "  bahasa",
+     "start": 16.52,
+     "end": 16.82
+    },
+    {
+     "word": "  manusia.",
+     "start": 16.82,
+     "end": 17.48
+    },
+    {
+     "word": "  Doktor",
+     "start": 17.48,
+     "end": 18.03
+    }
+   ]
+  },
+  {
+   "start": 19.08,
+   "end": 20.16,
+   "text": " Rimas  tadi  barusan  menjel",
+   "words": [
+    {
+     "word": " Rimas",
+     "start": 19.08,
+     "end": 19.2
+    },
+    {
+     "word": "  tadi",
+     "start": 19.2,
+     "end": 19.82
+    },
+    {
+     "word": "  barusan",
+     "start": 19.82,
+     "end": 20.16
+    },
+    {
+     "word": "  menjel",
+     "start": 20.16,
+     "end": 20.16
+    }
+   ]
+  },
+  {
+   "start": 24.07,
+   "end": 45.32,
+   "text": " askan  tentang  gambaran  sangat  sederhana  tentang re kon solidasi  memory.  Tapi  pertanyaannya kenapa?  Kenapa  memory  Dr. Dimas?  Nah  kalau  kita  lihat  memory  ya,  memory  ini  sebenarnya  kan  hm  diduga  menjadi  salah  satu komponen  penting  dalam  uhm  proses  trauma.  Sebenern ya.  Tapi  kalau  kita",
+   "words": [
+    {
+     "word": " askan",
+     "start": 24.07,
+     "end": 25.38
+    },
+    {
+     "word": "  tentang",
+     "start": 25.38,
+     "end": 25.86
+    },
+    {
+     "word": "  gambaran",
+     "start": 25.86,
+     "end": 27.1
+    },
+    {
+     "word": "  sangat",
+     "start": 27.1,
+     "end": 27.98
+    },
+    {
+     "word": "  sederhana",
+     "start": 28.0,
+     "end": 28.4
+    },
+    {
+     "word": "  tentang",
+     "start": 28.4,
+     "end": 28.9
+    },
+    {
+     "word": " re",
+     "start": 28.9,
+     "end": 29.04
+    },
+    {
+     "word": " kon",
+     "start": 29.04,
+     "end": 29.06
+    },
+    {
+     "word": " solidasi",
+     "start": 29.08,
+     "end": 29.54
+    },
+    {
+     "word": "  memory.",
+     "start": 29.54,
+     "end": 29.84
+    },
+    {
+     "word": "  Tapi",
+     "start": 29.84,
+     "end": 29.97
+    },
+    {
+     "word": "  pertanyaannya",
+     "start": 29.99,
+     "end": 30.56
+    },
+    {
+     "word": " kenapa?",
+     "start": 31.09,
+     "end": 31.3
+    },
+    {
+     "word": "  Kenapa",
+     "start": 31.3,
+     "end": 31.94
+    },
+    {
+     "word": "  memory",
+     "start": 31.94,
+     "end": 32.6
+    },
+    {
+     "word": "  Dr.",
+     "start": 32.6,
+     "end": 32.93
+    },
+    {
+     "word": " Dimas?",
+     "start": 32.93,
+     "end": 33.29
+    },
+    {
+     "word": "  Nah",
+     "start": 33.29,
+     "end": 33.84
+    },
+    {
+     "word": "  kalau",
+     "start": 33.84,
+     "end": 34.2
+    },
+    {
+     "word": "  kita",
+     "start": 34.2,
+     "end": 34.43
+    },
+    {
+     "word": "  lihat",
+     "start": 34.43,
+     "end": 34.64
+    },
+    {
+     "word": "  memory",
+     "start": 34.81,
+     "end": 35.25
+    },
+    {
+     "word": "  ya,",
+     "start": 35.25,
+     "end": 35.43
+    },
+    {
+     "word": "  memory",
+     "start": 35.43,
+     "end": 35.82
+    },
+    {
+     "word": "  ini",
+     "start": 35.82,
+     "end": 36.15
+    },
+    {
+     "word": "  sebenarnya",
+     "start": 36.15,
+     "end": 36.52
+    },
+    {
+     "word": "  kan",
+     "start": 36.52,
+     "end": 36.92
+    },
+    {
+     "word": "  hm",
+     "start": 36.92,
+     "end": 37.93
+    },
+    {
+     "word": "  diduga",
+     "start": 37.93,
+     "end": 39.25
+    },
+    {
+     "word": "  menjadi",
+     "start": 39.25,
+     "end": 39.6
+    },
+    {
+     "word": "  salah",
+     "start": 39.6,
+     "end": 39.88
+    },
+    {
+     "word": "  satu",
+     "start": 39.88,
+     "end": 40.14
+    },
+    {
+     "word": " komponen",
+     "start": 40.14,
+     "end": 40.46
+    },
+    {
+     "word": "  penting",
+     "start": 40.46,
+     "end": 40.92
+    },
+    {
+     "word": "  dalam",
+     "start": 40.92,
+     "end": 41.32
+    },
+    {
+     "word": "  uhm",
+     "start": 41.32,
+     "end": 41.74
+    },
+    {
+     "word": "  proses",
+     "start": 41.74,
+     "end": 42.18
+    },
+    {
+     "word": "  trauma.",
+     "start": 42.18,
+     "end": 42.6
+    },
+    {
+     "word": "  Sebenern",
+     "start": 42.6,
+     "end": 42.84
+    },
+    {
+     "word": " ya.",
+     "start": 42.84,
+     "end": 42.86
+    },
+    {
+     "word": "  Tapi",
+     "start": 42.86,
+     "end": 45.32
+    },
+    {
+     "word": "  kalau",
+     "start": 45.32,
+     "end": 45.32
+    },
+    {
+     "word": "  kita",
+     "start": 45.32,
+     "end": 45.32
+    }
+   ]
+  },
+  {
+   "start": 48.84,
+   "end": 99.63,
+   "text": "   selama  ini  ya  uhm  ada  beberapa  uhm  beberapa  masalah  mungkin  yang  sering  kita  temui.  Contoh  nih,  pasti  pernah  doang  nemuin  uhm  pasien  yang  udah beru bat  sana  sini  sana  sini, dapet  pengobatan,  uhm dapet terapi  banyak,  uhm dapet obat  banyak,  tapi rasanya  kok geayaan  sendiri  bahwa aku  udah  mengu langin nya ber kali- kali,  mem proses  dengan bercerita ber kali- kali,  bah kan bertahun- tahun,  tapi  nggak semb uh-semb uh.  Berarti kes impulannya  trauma  nggak  bisa  sembuhan  gitu jadinya.  Iya  uhm  seolah-olah  tuh  kayak  begitu. Kesannya  begitu.  Tapi  kalau  kita  liat  uhm  se lama  ini  ya  uhm  beberapa  pendekatan  uhm mungkin obat, mungkin obat  menyelesaikan gejalanya,  sedikit  mengurangi  gitu.  Tapi apakah",
+   "words": [
+    {
+     "word": "   selama",
+     "start": 48.84,
+     "end": 50.06
+    },
+    {
+     "word": "  ini",
+     "start": 50.06,
+     "end": 50.32
+    },
+    {
+     "word": "  ya",
+     "start": 50.32,
+     "end": 50.58
+    },
+    {
+     "word": "  uhm",
+     "start": 50.58,
+     "end": 51.02
+    },
+    {
+     "word": "  ada",
+     "start": 51.02,
+     "end": 51.5
+    },
+    {
+     "word": "  beberapa",
+     "start": 51.5,
+     "end": 52.16
+    },
+    {
+     "word": "  uhm",
+     "start": 52.16,
+     "end": 52.82
+    },
+    {
+     "word": "  beberapa",
+     "start": 52.82,
+     "end": 53.66
+    },
+    {
+     "word": "  masalah",
+     "start": 53.66,
+     "end": 54.36
+    },
+    {
+     "word": "  mungkin",
+     "start": 54.36,
+     "end": 54.62
+    },
+    {
+     "word": "  yang",
+     "start": 54.62,
+     "end": 54.76
+    },
+    {
+     "word": "  sering",
+     "start": 54.76,
+     "end": 54.94
+    },
+    {
+     "word": "  kita",
+     "start": 54.94,
+     "end": 55.12
+    },
+    {
+     "word": "  temui.",
+     "start": 55.12,
+     "end": 55.52
+    },
+    {
+     "word": "  Contoh",
+     "start": 55.52,
+     "end": 56.3
+    },
+    {
+     "word": "  nih,",
+     "start": 56.3,
+     "end": 56.53
+    },
+    {
+     "word": "  pasti",
+     "start": 56.75,
+     "end": 56.9
+    },
+    {
+     "word": "  pernah",
+     "start": 56.9,
+     "end": 57.2
+    },
+    {
+     "word": "  doang",
+     "start": 57.2,
+     "end": 57.34
+    },
+    {
+     "word": "  nemuin",
+     "start": 57.34,
+     "end": 57.88
+    },
+    {
+     "word": "  uhm",
+     "start": 57.88,
+     "end": 58.24
+    },
+    {
+     "word": "  pasien",
+     "start": 58.24,
+     "end": 58.6
+    },
+    {
+     "word": "  yang",
+     "start": 58.6,
+     "end": 59.04
+    },
+    {
+     "word": "  udah",
+     "start": 59.2,
+     "end": 59.56
+    },
+    {
+     "word": " beru",
+     "start": 59.56,
+     "end": 59.72
+    },
+    {
+     "word": " bat",
+     "start": 59.72,
+     "end": 59.82
+    },
+    {
+     "word": "  sana",
+     "start": 59.82,
+     "end": 60.04
+    },
+    {
+     "word": "  sini",
+     "start": 60.04,
+     "end": 60.26
+    },
+    {
+     "word": "  sana",
+     "start": 60.26,
+     "end": 60.46
+    },
+    {
+     "word": "  sini,",
+     "start": 60.46,
+     "end": 60.86
+    },
+    {
+     "word": " dapet",
+     "start": 60.86,
+     "end": 61.36
+    },
+    {
+     "word": "  pengobatan,",
+     "start": 61.36,
+     "end": 61.98
+    },
+    {
+     "word": "  uhm",
+     "start": 61.98,
+     "end": 62.34
+    },
+    {
+     "word": " dapet",
+     "start": 62.34,
+     "end": 62.65
+    },
+    {
+     "word": " terapi",
+     "start": 62.65,
+     "end": 62.98
+    },
+    {
+     "word": "  banyak,",
+     "start": 62.98,
+     "end": 63.64
+    },
+    {
+     "word": "  uhm",
+     "start": 63.64,
+     "end": 64.3
+    },
+    {
+     "word": " dapet",
+     "start": 64.3,
+     "end": 64.93
+    },
+    {
+     "word": " obat",
+     "start": 64.96,
+     "end": 65.25
+    },
+    {
+     "word": "  banyak,",
+     "start": 65.32,
+     "end": 65.61
+    },
+    {
+     "word": "  tapi",
+     "start": 65.73,
+     "end": 66.56
+    },
+    {
+     "word": " rasanya",
+     "start": 66.56,
+     "end": 66.9
+    },
+    {
+     "word": "  kok",
+     "start": 66.9,
+     "end": 67.09
+    },
+    {
+     "word": " geayaan",
+     "start": 67.09,
+     "end": 77.09
+    },
+    {
+     "word": "  sendiri",
+     "start": 77.09,
+     "end": 77.42
+    },
+    {
+     "word": "  bahwa",
+     "start": 77.42,
+     "end": 77.65
+    },
+    {
+     "word": " aku",
+     "start": 77.65,
+     "end": 78.08
+    },
+    {
+     "word": "  udah",
+     "start": 78.08,
+     "end": 78.26
+    },
+    {
+     "word": "  mengu",
+     "start": 78.26,
+     "end": 78.48
+    },
+    {
+     "word": " langin",
+     "start": 78.48,
+     "end": 78.72
+    },
+    {
+     "word": " nya",
+     "start": 78.72,
+     "end": 78.84
+    },
+    {
+     "word": " ber",
+     "start": 78.84,
+     "end": 78.87
+    },
+    {
+     "word": " kali",
+     "start": 78.87,
+     "end": 79.01
+    },
+    {
+     "word": "-",
+     "start": 79.01,
+     "end": 79.14
+    },
+    {
+     "word": " kali,",
+     "start": 79.14,
+     "end": 79.51
+    },
+    {
+     "word": "  mem",
+     "start": 79.51,
+     "end": 79.87
+    },
+    {
+     "word": " proses",
+     "start": 79.87,
+     "end": 80.23
+    },
+    {
+     "word": "  dengan",
+     "start": 80.23,
+     "end": 80.48
+    },
+    {
+     "word": " bercerita",
+     "start": 80.48,
+     "end": 80.95
+    },
+    {
+     "word": " ber",
+     "start": 80.95,
+     "end": 81.06
+    },
+    {
+     "word": " kali",
+     "start": 81.06,
+     "end": 81.22
+    },
+    {
+     "word": "-",
+     "start": 81.22,
+     "end": 81.35
+    },
+    {
+     "word": " kali,",
+     "start": 81.39,
+     "end": 81.59
+    },
+    {
+     "word": "  bah",
+     "start": 81.59,
+     "end": 81.74
+    },
+    {
+     "word": " kan",
+     "start": 81.76,
+     "end": 81.78
+    },
+    {
+     "word": " bertahun",
+     "start": 81.78,
+     "end": 82.16
+    },
+    {
+     "word": "-",
+     "start": 82.16,
+     "end": 82.28
+    },
+    {
+     "word": " tahun,",
+     "start": 82.29,
+     "end": 82.46
+    },
+    {
+     "word": "  tapi",
+     "start": 82.46,
+     "end": 82.7
+    },
+    {
+     "word": "  nggak",
+     "start": 82.7,
+     "end": 83.12
+    },
+    {
+     "word": " semb",
+     "start": 83.12,
+     "end": 83.3
+    },
+    {
+     "word": " uh",
+     "start": 83.3,
+     "end": 83.32
+    },
+    {
+     "word": "-semb",
+     "start": 83.32,
+     "end": 83.44
+    },
+    {
+     "word": " uh.",
+     "start": 83.44,
+     "end": 83.62
+    },
+    {
+     "word": "  Berarti",
+     "start": 83.62,
+     "end": 83.84
+    },
+    {
+     "word": " kes",
+     "start": 83.84,
+     "end": 84.0
+    },
+    {
+     "word": " impulannya",
+     "start": 84.0,
+     "end": 84.28
+    },
+    {
+     "word": "  trauma",
+     "start": 84.28,
+     "end": 84.64
+    },
+    {
+     "word": "  nggak",
+     "start": 84.64,
+     "end": 84.72
+    },
+    {
+     "word": "  bisa",
+     "start": 84.72,
+     "end": 84.9
+    },
+    {
+     "word": "  sembuhan",
+     "start": 84.9,
+     "end": 85.14
+    },
+    {
+     "word": "  gitu",
+     "start": 85.14,
+     "end": 85.42
+    },
+    {
+     "word": " jadinya.",
+     "start": 85.42,
+     "end": 85.76
+    },
+    {
+     "word": "  Iya",
+     "start": 85.76,
+     "end": 86.4
+    },
+    {
+     "word": "  uhm",
+     "start": 86.4,
+     "end": 86.98
+    },
+    {
+     "word": "  seolah",
+     "start": 86.98,
+     "end": 87.52
+    },
+    {
+     "word": "-olah",
+     "start": 87.52,
+     "end": 87.76
+    },
+    {
+     "word": "  tuh",
+     "start": 87.76,
+     "end": 87.94
+    },
+    {
+     "word": "  kayak",
+     "start": 87.94,
+     "end": 88.24
+    },
+    {
+     "word": "  begitu.",
+     "start": 88.24,
+     "end": 88.72
+    },
+    {
+     "word": " Kesannya",
+     "start": 88.72,
+     "end": 89.56
+    },
+    {
+     "word": "  begitu.",
+     "start": 89.56,
+     "end": 90.02
+    },
+    {
+     "word": "  Tapi",
+     "start": 90.02,
+     "end": 90.56
+    },
+    {
+     "word": "  kalau",
+     "start": 90.56,
+     "end": 90.82
+    },
+    {
+     "word": "  kita",
+     "start": 90.82,
+     "end": 91.02
+    },
+    {
+     "word": "  liat",
+     "start": 91.02,
+     "end": 91.26
+    },
+    {
+     "word": "  uhm",
+     "start": 91.51,
+     "end": 91.64
+    },
+    {
+     "word": "  se",
+     "start": 91.64,
+     "end": 91.74
+    },
+    {
+     "word": " lama",
+     "start": 91.74,
+     "end": 91.98
+    },
+    {
+     "word": "  ini",
+     "start": 91.98,
+     "end": 92.26
+    },
+    {
+     "word": "  ya",
+     "start": 92.26,
+     "end": 92.56
+    },
+    {
+     "word": "  uhm",
+     "start": 92.56,
+     "end": 93.3
+    },
+    {
+     "word": "  beberapa",
+     "start": 93.3,
+     "end": 93.88
+    },
+    {
+     "word": "  pendekatan",
+     "start": 93.88,
+     "end": 94.66
+    },
+    {
+     "word": "  uhm",
+     "start": 94.66,
+     "end": 95.04
+    },
+    {
+     "word": " mungkin",
+     "start": 95.04,
+     "end": 95.44
+    },
+    {
+     "word": " obat,",
+     "start": 95.44,
+     "end": 95.82
+    },
+    {
+     "word": " mungkin",
+     "start": 95.85,
+     "end": 96.04
+    },
+    {
+     "word": " obat",
+     "start": 96.04,
+     "end": 96.33
+    },
+    {
+     "word": "  menyelesaikan",
+     "start": 96.43,
+     "end": 96.98
+    },
+    {
+     "word": " gejalanya,",
+     "start": 96.98,
+     "end": 97.7
+    },
+    {
+     "word": "  sedikit",
+     "start": 97.7,
+     "end": 98.14
+    },
+    {
+     "word": "  mengurangi",
+     "start": 98.14,
+     "end": 98.58
+    },
+    {
+     "word": "  gitu.",
+     "start": 98.58,
+     "end": 98.87
+    },
+    {
+     "word": "  Tapi",
+     "start": 98.94,
+     "end": 99.38
+    },
+    {
+     "word": " apakah",
+     "start": 99.38,
+     "end": 99.63
+    }
+   ]
+  },
+  {
+   "start": 121.36,
+   "end": 121.36,
+   "text": " ",
+   "words": [
+    {
+     "word": " ",
+     "start": 121.36,
+     "end": 121.36
+    }
+   ]
+  }
+ ]
+}

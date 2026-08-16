@@ -1,0 +1,1038 @@
+{
+ "bahasa": "id",
+ "durasi": 104.1,
+ "model": "nyrahealth/CrisperWhisper",
+ "setelan": {
+  "jendela_dtk": 30,
+  "maks_token": 160,
+  "tokenizer_dari": "openai/whisper-large-v3",
+  "koreksi_senyap": true,
+  "repetition_penalty": null,
+  "no_repeat_ngram_size": null
+ },
+ "rentang_rusak": [],
+ "segments": [
+  {
+   "start": 6.55,
+   "end": 7.91,
+   "text": "  Siapa  dokter Rian  Keswani?",
+   "words": [
+    {
+     "word": "  Siapa",
+     "start": 6.55,
+     "end": 6.9
+    },
+    {
+     "word": "  dokter",
+     "start": 6.9,
+     "end": 7.3
+    },
+    {
+     "word": " Rian",
+     "start": 7.3,
+     "end": 7.44
+    },
+    {
+     "word": "  Keswani?",
+     "start": 7.44,
+     "end": 7.91
+    }
+   ]
+  },
+  {
+   "start": 8.91,
+   "end": 16.01,
+   "text": "  uhm  saya  dokter bedas ah  mungkin perkenalan  dulu  saya Rian  Keswani  atau  dipanggil  Rayyan  Keswani,  dokter  Bedasaraf.",
+   "words": [
+    {
+     "word": "  uhm",
+     "start": 8.91,
+     "end": 9.14
+    },
+    {
+     "word": "  saya",
+     "start": 9.14,
+     "end": 10.14
+    },
+    {
+     "word": "  dokter",
+     "start": 10.14,
+     "end": 10.54
+    },
+    {
+     "word": " bedas",
+     "start": 10.54,
+     "end": 10.86
+    },
+    {
+     "word": " ah",
+     "start": 10.86,
+     "end": 11.08
+    },
+    {
+     "word": "  mungkin",
+     "start": 11.08,
+     "end": 11.42
+    },
+    {
+     "word": " perkenalan",
+     "start": 11.42,
+     "end": 11.68
+    },
+    {
+     "word": "  dulu",
+     "start": 11.68,
+     "end": 12.0
+    },
+    {
+     "word": "  saya",
+     "start": 12.0,
+     "end": 12.18
+    },
+    {
+     "word": " Rian",
+     "start": 12.18,
+     "end": 12.48
+    },
+    {
+     "word": "  Keswani",
+     "start": 12.48,
+     "end": 12.86
+    },
+    {
+     "word": "  atau",
+     "start": 12.86,
+     "end": 13.27
+    },
+    {
+     "word": "  dipanggil",
+     "start": 13.29,
+     "end": 13.6
+    },
+    {
+     "word": "  Rayyan",
+     "start": 13.6,
+     "end": 13.84
+    },
+    {
+     "word": "  Keswani,",
+     "start": 13.84,
+     "end": 14.46
+    },
+    {
+     "word": "  dokter",
+     "start": 14.46,
+     "end": 15.08
+    },
+    {
+     "word": "  Bedasaraf.",
+     "start": 15.08,
+     "end": 16.01
+    }
+   ]
+  },
+  {
+   "start": 22.58,
+   "end": 55.31,
+   "text": "  Day  to  dayn ya emang  meng hadapi  teman- teman  yang  operasi  Bedasaraf  atau  seperti  apa?  hm  day  to  day-nya cuk up  uhm  si buk  ya.  Jadi  sa  karena  saya ber untung  bisa  beker ja  di  Rumah  Sakit  Besar Otak  Nasional,  dan terutama  di  bagian saraf  di otakk  kita  ya  tuh.  Hmm,  jadi otak  itu  adalah 1  satunya  organ  yang  gak  bisa  kita  trans plan,  tapi  gak  ada  medical  check  up-nya.",
+   "words": [
+    {
+     "word": "  Day",
+     "start": 22.58,
+     "end": 22.72
+    },
+    {
+     "word": "  to",
+     "start": 22.72,
+     "end": 22.98
+    },
+    {
+     "word": "  dayn",
+     "start": 22.98,
+     "end": 23.22
+    },
+    {
+     "word": " ya",
+     "start": 23.22,
+     "end": 23.32
+    },
+    {
+     "word": " emang",
+     "start": 23.32,
+     "end": 24.02
+    },
+    {
+     "word": "  meng",
+     "start": 24.02,
+     "end": 24.6
+    },
+    {
+     "word": " hadapi",
+     "start": 24.6,
+     "end": 25.06
+    },
+    {
+     "word": "  teman",
+     "start": 25.06,
+     "end": 25.58
+    },
+    {
+     "word": "-",
+     "start": 25.58,
+     "end": 25.66
+    },
+    {
+     "word": " teman",
+     "start": 25.66,
+     "end": 25.88
+    },
+    {
+     "word": "  yang",
+     "start": 25.88,
+     "end": 26.26
+    },
+    {
+     "word": "  operasi",
+     "start": 26.26,
+     "end": 26.98
+    },
+    {
+     "word": "  Bedasaraf",
+     "start": 26.98,
+     "end": 27.48
+    },
+    {
+     "word": "  atau",
+     "start": 27.48,
+     "end": 27.66
+    },
+    {
+     "word": "  seperti",
+     "start": 27.66,
+     "end": 27.88
+    },
+    {
+     "word": "  apa?",
+     "start": 27.88,
+     "end": 28.1
+    },
+    {
+     "word": "  hm",
+     "start": 28.1,
+     "end": 29.34
+    },
+    {
+     "word": "  day",
+     "start": 29.34,
+     "end": 29.86
+    },
+    {
+     "word": "  to",
+     "start": 29.86,
+     "end": 30.0
+    },
+    {
+     "word": "  day",
+     "start": 30.0,
+     "end": 30.18
+    },
+    {
+     "word": "-nya",
+     "start": 30.18,
+     "end": 30.38
+    },
+    {
+     "word": " cuk",
+     "start": 30.38,
+     "end": 30.54
+    },
+    {
+     "word": " up",
+     "start": 30.54,
+     "end": 30.81
+    },
+    {
+     "word": "  uhm",
+     "start": 31.25,
+     "end": 31.66
+    },
+    {
+     "word": "  si",
+     "start": 31.66,
+     "end": 32.5
+    },
+    {
+     "word": " buk",
+     "start": 32.5,
+     "end": 32.76
+    },
+    {
+     "word": "  ya.",
+     "start": 32.81,
+     "end": 32.97
+    },
+    {
+     "word": "  Jadi",
+     "start": 32.97,
+     "end": 33.54
+    },
+    {
+     "word": "  sa",
+     "start": 33.54,
+     "end": 34.1
+    },
+    {
+     "word": "  karena",
+     "start": 34.1,
+     "end": 34.46
+    },
+    {
+     "word": "  saya",
+     "start": 34.46,
+     "end": 34.78
+    },
+    {
+     "word": " ber",
+     "start": 34.78,
+     "end": 35.5
+    },
+    {
+     "word": " untung",
+     "start": 35.5,
+     "end": 35.79
+    },
+    {
+     "word": "  bisa",
+     "start": 35.79,
+     "end": 36.11
+    },
+    {
+     "word": "  beker",
+     "start": 36.11,
+     "end": 36.32
+    },
+    {
+     "word": " ja",
+     "start": 36.32,
+     "end": 36.52
+    },
+    {
+     "word": "  di",
+     "start": 36.52,
+     "end": 36.7
+    },
+    {
+     "word": "  Rumah",
+     "start": 36.7,
+     "end": 36.86
+    },
+    {
+     "word": "  Sakit",
+     "start": 36.86,
+     "end": 37.06
+    },
+    {
+     "word": "  Besar",
+     "start": 37.06,
+     "end": 37.25
+    },
+    {
+     "word": " Otak",
+     "start": 37.25,
+     "end": 37.5
+    },
+    {
+     "word": "  Nasional,",
+     "start": 37.5,
+     "end": 38.25
+    },
+    {
+     "word": "  dan",
+     "start": 38.25,
+     "end": 44.74
+    },
+    {
+     "word": " terutama",
+     "start": 44.74,
+     "end": 45.18
+    },
+    {
+     "word": "  di",
+     "start": 45.18,
+     "end": 45.32
+    },
+    {
+     "word": "  bagian",
+     "start": 45.32,
+     "end": 45.56
+    },
+    {
+     "word": " saraf",
+     "start": 45.56,
+     "end": 46.0
+    },
+    {
+     "word": "  di",
+     "start": 46.0,
+     "end": 46.32
+    },
+    {
+     "word": " otakk",
+     "start": 46.32,
+     "end": 46.52
+    },
+    {
+     "word": "  kita",
+     "start": 46.52,
+     "end": 46.78
+    },
+    {
+     "word": "  ya",
+     "start": 46.78,
+     "end": 46.88
+    },
+    {
+     "word": "  tuh.",
+     "start": 46.88,
+     "end": 47.01
+    },
+    {
+     "word": "  Hmm,",
+     "start": 47.65,
+     "end": 48.12
+    },
+    {
+     "word": "  jadi",
+     "start": 48.12,
+     "end": 48.5
+    },
+    {
+     "word": " otak",
+     "start": 48.5,
+     "end": 48.76
+    },
+    {
+     "word": "  itu",
+     "start": 48.76,
+     "end": 49.1
+    },
+    {
+     "word": "  adalah",
+     "start": 49.1,
+     "end": 49.44
+    },
+    {
+     "word": " 1",
+     "start": 49.44,
+     "end": 49.64
+    },
+    {
+     "word": "  satunya",
+     "start": 49.64,
+     "end": 50.02
+    },
+    {
+     "word": "  organ",
+     "start": 50.02,
+     "end": 50.62
+    },
+    {
+     "word": "  yang",
+     "start": 50.62,
+     "end": 51.12
+    },
+    {
+     "word": "  gak",
+     "start": 51.12,
+     "end": 51.24
+    },
+    {
+     "word": "  bisa",
+     "start": 51.24,
+     "end": 51.48
+    },
+    {
+     "word": "  kita",
+     "start": 51.48,
+     "end": 51.72
+    },
+    {
+     "word": "  trans",
+     "start": 51.72,
+     "end": 52.0
+    },
+    {
+     "word": " plan,",
+     "start": 52.0,
+     "end": 52.36
+    },
+    {
+     "word": "  tapi",
+     "start": 52.36,
+     "end": 53.42
+    },
+    {
+     "word": "  gak",
+     "start": 53.42,
+     "end": 54.34
+    },
+    {
+     "word": "  ada",
+     "start": 54.34,
+     "end": 54.52
+    },
+    {
+     "word": "  medical",
+     "start": 54.52,
+     "end": 54.82
+    },
+    {
+     "word": "  check",
+     "start": 54.82,
+     "end": 55.02
+    },
+    {
+     "word": "  up",
+     "start": 55.02,
+     "end": 55.14
+    },
+    {
+     "word": "-nya.",
+     "start": 55.16,
+     "end": 55.31
+    }
+   ]
+  },
+  {
+   "start": 62.11,
+   "end": 64.3,
+   "text": "  Kalau  bisa,  itu  dilakukan  pen catatan.",
+   "words": [
+    {
+     "word": "  Kalau",
+     "start": 62.11,
+     "end": 62.26
+    },
+    {
+     "word": "  bisa,",
+     "start": 62.26,
+     "end": 62.86
+    },
+    {
+     "word": "  itu",
+     "start": 62.86,
+     "end": 63.2
+    },
+    {
+     "word": "  dilakukan",
+     "start": 63.2,
+     "end": 63.64
+    },
+    {
+     "word": "  pen",
+     "start": 63.64,
+     "end": 63.76
+    },
+    {
+     "word": " catatan.",
+     "start": 63.76,
+     "end": 64.3
+    }
+   ]
+  },
+  {
+   "start": 65.13,
+   "end": 90.42,
+   "text": "  Jadi ada ada  rasa  senang  melihat  misalnya  di  bikin  checklist  di  depan kulkas  gitu,  kalau  habis  hari  ini  bisa  lari,  checklist  satu,  besok  checklist. A kan ada e fek  dimana  kita m ras  mun cul  rasa  senang  pada  saat  kita  liat  checklist nya  banyak  dan  kita jadinya  gak  mau  menghentikan  streak  gitu.",
+   "words": [
+    {
+     "word": "  Jadi",
+     "start": 65.13,
+     "end": 65.37
+    },
+    {
+     "word": " ada",
+     "start": 65.37,
+     "end": 66.14
+    },
+    {
+     "word": " ada",
+     "start": 66.14,
+     "end": 67.81
+    },
+    {
+     "word": "  rasa",
+     "start": 67.81,
+     "end": 68.36
+    },
+    {
+     "word": "  senang",
+     "start": 68.36,
+     "end": 68.8
+    },
+    {
+     "word": "  melihat",
+     "start": 68.8,
+     "end": 69.12
+    },
+    {
+     "word": "  misalnya",
+     "start": 69.12,
+     "end": 69.4
+    },
+    {
+     "word": "  di",
+     "start": 69.4,
+     "end": 69.5
+    },
+    {
+     "word": "  bikin",
+     "start": 69.5,
+     "end": 69.78
+    },
+    {
+     "word": "  checklist",
+     "start": 69.78,
+     "end": 70.28
+    },
+    {
+     "word": "  di",
+     "start": 70.28,
+     "end": 70.81
+    },
+    {
+     "word": "  depan",
+     "start": 70.81,
+     "end": 71.78
+    },
+    {
+     "word": " kulkas",
+     "start": 71.78,
+     "end": 72.22
+    },
+    {
+     "word": "  gitu,",
+     "start": 72.22,
+     "end": 72.56
+    },
+    {
+     "word": "  kalau",
+     "start": 72.56,
+     "end": 72.76
+    },
+    {
+     "word": "  habis",
+     "start": 72.76,
+     "end": 73.0
+    },
+    {
+     "word": "  hari",
+     "start": 73.0,
+     "end": 73.18
+    },
+    {
+     "word": "  ini",
+     "start": 73.18,
+     "end": 73.36
+    },
+    {
+     "word": "  bisa",
+     "start": 73.36,
+     "end": 73.54
+    },
+    {
+     "word": "  lari,",
+     "start": 73.54,
+     "end": 73.86
+    },
+    {
+     "word": "  checklist",
+     "start": 74.28,
+     "end": 74.45
+    },
+    {
+     "word": "  satu,",
+     "start": 74.45,
+     "end": 74.86
+    },
+    {
+     "word": "  besok",
+     "start": 74.99,
+     "end": 75.12
+    },
+    {
+     "word": "  checklist.",
+     "start": 75.12,
+     "end": 75.48
+    },
+    {
+     "word": " A",
+     "start": 75.6,
+     "end": 75.92
+    },
+    {
+     "word": " kan",
+     "start": 75.92,
+     "end": 76.09
+    },
+    {
+     "word": " ada",
+     "start": 76.09,
+     "end": 76.54
+    },
+    {
+     "word": " e",
+     "start": 76.54,
+     "end": 76.73
+    },
+    {
+     "word": " fek",
+     "start": 76.73,
+     "end": 76.95
+    },
+    {
+     "word": "  dimana",
+     "start": 76.95,
+     "end": 77.31
+    },
+    {
+     "word": "  kita",
+     "start": 77.31,
+     "end": 77.62
+    },
+    {
+     "word": " m",
+     "start": 77.62,
+     "end": 77.73
+    },
+    {
+     "word": " ras",
+     "start": 77.74,
+     "end": 84.98
+    },
+    {
+     "word": "  mun",
+     "start": 84.99,
+     "end": 85.48
+    },
+    {
+     "word": " cul",
+     "start": 85.48,
+     "end": 85.66
+    },
+    {
+     "word": "  rasa",
+     "start": 85.66,
+     "end": 85.92
+    },
+    {
+     "word": "  senang",
+     "start": 85.92,
+     "end": 86.22
+    },
+    {
+     "word": "  pada",
+     "start": 86.22,
+     "end": 86.36
+    },
+    {
+     "word": "  saat",
+     "start": 86.36,
+     "end": 86.58
+    },
+    {
+     "word": "  kita",
+     "start": 86.58,
+     "end": 86.76
+    },
+    {
+     "word": "  liat",
+     "start": 86.76,
+     "end": 86.9
+    },
+    {
+     "word": "  checklist",
+     "start": 86.9,
+     "end": 87.2
+    },
+    {
+     "word": " nya",
+     "start": 87.2,
+     "end": 87.32
+    },
+    {
+     "word": "  banyak",
+     "start": 87.32,
+     "end": 87.63
+    },
+    {
+     "word": "  dan",
+     "start": 87.7,
+     "end": 87.86
+    },
+    {
+     "word": "  kita",
+     "start": 87.86,
+     "end": 88.08
+    },
+    {
+     "word": " jadinya",
+     "start": 88.08,
+     "end": 88.4
+    },
+    {
+     "word": "  gak",
+     "start": 88.4,
+     "end": 88.54
+    },
+    {
+     "word": "  mau",
+     "start": 88.54,
+     "end": 89.0
+    },
+    {
+     "word": "  menghentikan",
+     "start": 89.0,
+     "end": 89.84
+    },
+    {
+     "word": "  streak",
+     "start": 89.84,
+     "end": 90.14
+    },
+    {
+     "word": "  gitu.",
+     "start": 90.19,
+     "end": 90.42
+    }
+   ]
+  },
+  {
+   "start": 91.35,
+   "end": 104.04,
+   "text": " Gitu.  Jadi ada  rasa  tanggung  jaw ab  sama  diri  sendiri  bahwa  ini  sayang  la  udah  20 hari  masa  gak  mau  dilanjut  lagi  gitu.  Itu  akan m  akan  mun cul  rasa  seperti  itu.  Itu  tips nya  sih  kalo  mau  memulai  atau  melakukan hal  ya  baru.",
+   "words": [
+    {
+     "word": " Gitu.",
+     "start": 91.35,
+     "end": 91.66
+    },
+    {
+     "word": "  Jadi",
+     "start": 91.66,
+     "end": 91.96
+    },
+    {
+     "word": " ada",
+     "start": 91.96,
+     "end": 92.16
+    },
+    {
+     "word": "  rasa",
+     "start": 92.16,
+     "end": 92.38
+    },
+    {
+     "word": "  tanggung",
+     "start": 92.38,
+     "end": 92.58
+    },
+    {
+     "word": "  jaw",
+     "start": 92.58,
+     "end": 92.72
+    },
+    {
+     "word": " ab",
+     "start": 92.72,
+     "end": 92.78
+    },
+    {
+     "word": "  sama",
+     "start": 92.78,
+     "end": 92.96
+    },
+    {
+     "word": "  diri",
+     "start": 92.96,
+     "end": 93.14
+    },
+    {
+     "word": "  sendiri",
+     "start": 93.14,
+     "end": 93.48
+    },
+    {
+     "word": "  bahwa",
+     "start": 93.48,
+     "end": 93.66
+    },
+    {
+     "word": "  ini",
+     "start": 94.26,
+     "end": 94.36
+    },
+    {
+     "word": "  sayang",
+     "start": 94.36,
+     "end": 94.8
+    },
+    {
+     "word": "  la",
+     "start": 94.8,
+     "end": 95.06
+    },
+    {
+     "word": "  udah",
+     "start": 95.06,
+     "end": 95.28
+    },
+    {
+     "word": "  20",
+     "start": 95.28,
+     "end": 95.58
+    },
+    {
+     "word": " hari",
+     "start": 95.58,
+     "end": 95.92
+    },
+    {
+     "word": "  masa",
+     "start": 95.92,
+     "end": 96.24
+    },
+    {
+     "word": "  gak",
+     "start": 96.24,
+     "end": 96.94
+    },
+    {
+     "word": "  mau",
+     "start": 96.94,
+     "end": 97.08
+    },
+    {
+     "word": "  dilanjut",
+     "start": 97.08,
+     "end": 97.4
+    },
+    {
+     "word": "  lagi",
+     "start": 97.4,
+     "end": 97.76
+    },
+    {
+     "word": "  gitu.",
+     "start": 97.76,
+     "end": 97.98
+    },
+    {
+     "word": "  Itu",
+     "start": 98.21,
+     "end": 98.32
+    },
+    {
+     "word": "  akan",
+     "start": 98.32,
+     "end": 98.56
+    },
+    {
+     "word": " m",
+     "start": 98.56,
+     "end": 98.64
+    },
+    {
+     "word": "  akan",
+     "start": 98.64,
+     "end": 98.86
+    },
+    {
+     "word": "  mun",
+     "start": 98.86,
+     "end": 99.18
+    },
+    {
+     "word": " cul",
+     "start": 99.18,
+     "end": 99.38
+    },
+    {
+     "word": "  rasa",
+     "start": 99.38,
+     "end": 99.68
+    },
+    {
+     "word": "  seperti",
+     "start": 99.68,
+     "end": 99.89
+    },
+    {
+     "word": "  itu.",
+     "start": 100.0,
+     "end": 100.24
+    },
+    {
+     "word": "  Itu",
+     "start": 100.66,
+     "end": 100.8
+    },
+    {
+     "word": "  tips",
+     "start": 100.8,
+     "end": 101.04
+    },
+    {
+     "word": " nya",
+     "start": 101.04,
+     "end": 101.16
+    },
+    {
+     "word": "  sih",
+     "start": 101.16,
+     "end": 101.3
+    },
+    {
+     "word": "  kalo",
+     "start": 101.3,
+     "end": 101.48
+    },
+    {
+     "word": "  mau",
+     "start": 101.48,
+     "end": 101.8
+    },
+    {
+     "word": "  memulai",
+     "start": 101.8,
+     "end": 102.46
+    },
+    {
+     "word": "  atau",
+     "start": 102.91,
+     "end": 102.97
+    },
+    {
+     "word": "  melakukan",
+     "start": 103.03,
+     "end": 103.42
+    },
+    {
+     "word": " hal",
+     "start": 103.42,
+     "end": 103.58
+    },
+    {
+     "word": "  ya",
+     "start": 103.58,
+     "end": 103.68
+    },
+    {
+     "word": "  baru.",
+     "start": 103.68,
+     "end": 104.04
+    }
+   ]
+  }
+ ]
+}
