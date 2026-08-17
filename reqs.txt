@@ -1,0 +1,44 @@
+# Ketergantungan Python prototipe disfluency-id
+#
+#   pip install -r reqs.txt
+#
+# Inti prototipe tidak memerlukan satu pun berkas ini. schema, lexicon,
+# reduplication, corpus, baseline, features, model, evaluate, edl, render,
+# experiment, dan cli seluruhnya memakai pustaka standar Python >= 3.10,
+# sehingga `stats`, `build`, `experiment`, `train`, `detect`, `explain`,
+# `audit`, `edl`, `render`, dan `ingest --whisper-json` sudah bisa dijalankan
+# pada Python polos tanpa memasang apa pun.
+#
+# Yang tercantum di bawah hanya dibutuhkan oleh dua hal: transkripsi ASR
+# (`disfluency_id/asr.py`, dipanggil `ingest --audio`) dan menjalankan uji.
+#
+# Verifikasi sesudah memasang:
+#   python -m disfluency_id ingest --check
+#   python -m pytest -q
+
+
+# --- Transkripsi ASR ------------------------------------------------------
+# Satu-satunya jalur ASR proyek ini: nyrahealth/CrisperWhisper lewat
+# transformers. Alasan pemilihannya ada di docstring disfluency_id/asr.py --
+# ringkasnya, ia dilatih verbatim sehingga jeda terisi ikut dituliskan,
+# sedangkan Whisper arus utama menghapusnya.
+#
+# VERSINYA SENGAJA TIDAK DIPATOK, dan ini pelemahan keterulangan yang
+# disadari. Di Google Colab -- lingkungan tempat prototipe ini dijalankan --
+# transformers dan torch sudah terpasang, dan mematok versinya memicu
+# pemasangan ulang CUDA yang memakan belasan menit setiap sesi. Gantinya versi
+# yang terpakai DICETAK setiap kali transkripsi berjalan, sehingga tetap
+# tercatat walau tidak terkunci.
+#
+# Butuh GPU. Pada CPU, transkripsi CrisperWhisper tidak praktis.
+transformers
+torch
+
+# --- Pengunduhan rekaman --------------------------------------------------
+# Tidak ada barisnya, dan itu disengaja. `disfluency_id/media.py` mengunduh
+# dengan pustaka standar Python, dan hanya mau menyentuh berkas yang punya
+# baris di data/media/provenans.csv. Jalur unduh kedua lewat yt-dlp sudah
+# dicabut: ia melewati syarat provenans itu.
+
+# --- Uji ------------------------------------------------------------------
+pytest==9.1.1

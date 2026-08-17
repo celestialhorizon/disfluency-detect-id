@@ -1,0 +1,24 @@
+[project]
+name = "disfluency-id"
+version = "0.1.0"
+description = "Prototipe deteksi filler word & disfluensi ucapan Bahasa Indonesia untuk automasi penyuntingan video/podcast"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+# Inti prototipe sengaja tanpa ketergantungan: seluruhnya pustaka standar
+# Python. Reproduksibilitas hasil dengan demikian tidak bergantung pada
+# penyamaan versi pustaka numerik pihak ketiga.
+dependencies = []
+
+[project.optional-dependencies]
+# Hanya dibutuhkan untuk transkripsi (disfluency_id/asr.py). Pengunduhan
+# rekaman tidak butuh apa pun: `media.py` memakai pustaka standar.
+ingest = ["transformers", "torch"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+disfluency-id = "disfluency_id.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
