@@ -758,4 +758,15 @@ pada docstring modul tersebut: hanya konten publik, hormati ketentuan layanan
 platform, audio mentah tidak diredistribusi, nama diri disamarkan pada
 transkrip yang dipublikasikan, dan lisensi tiap sumber dicatat dalam berkas
 provenans.
+
+---
+
+## Lisensi
+
+Kode dalam repositori ini berlisensi MIT — lihat `LICENSE`. Silakan dipakai,
+diubah, dan dilanjutkan, dengan mencantumkan pemberitahuan hak cipta.
+
+Lisensi tersebut **hanya berlaku untuk kode**. Rekaman sumber tidak berada di
+repositori ini dan tetap tunduk pada ketentuan pemiliknya masing-masing;
+status lisensi tiap rekaman dicatat dalam `data/media/provenans.csv`.
 # trigger reindex

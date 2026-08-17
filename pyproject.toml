@@ -3,6 +3,7 @@ name = "disfluency-id"
 version = "0.1.0"
 description = "Prototipe deteksi filler word & disfluensi ucapan Bahasa Indonesia untuk automasi penyuntingan video/podcast"
 requires-python = ">=3.10"
+license = { text = "MIT" }
 
 # Inti prototipe sengaja tanpa ketergantungan: seluruhnya pustaka standar
 # Python. Reproduksibilitas hasil dengan demikian tidak bergantung pada
